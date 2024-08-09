@@ -1,1 +1,21 @@
-
+import java.util.Arrays; 
+public class FindMiddleNumber
+{
+    public static void main(String[] args) 
+    { 
+        int[] numbers = {10, 11, 12, 13 , 14}; 
+        Arrays.sort(numbers); 
+        int n = numbers.length;
+        if (n % 2 == 0) 
+        { 
+            int middle1 = numbers[(n / 2) - 1];
+            int middle2 = numbers[n / 2];
+            System.out.println("The middle numbers are: " + middle1 + " and " + middle2);
+        } 
+        else
+        {  
+            int middle = numbers[n / 2];
+            System.out.println("The middle number is: " + middle);
+        }
+    }
+}

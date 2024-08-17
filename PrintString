@@ -1,0 +1,14 @@
+import java.util.*;
+class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner a = new Scanner(System.in);
+        String First = " JAVA";
+        String Second = " PYTHON";
+        String Third = " JAVASCRIPT";
+        System.out.println(First);
+        System.out.println(Second);
+        System.out.println(Third);
+    }
+}
